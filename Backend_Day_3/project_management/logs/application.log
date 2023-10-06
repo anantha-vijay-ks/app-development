@@ -1,0 +1,58 @@
+2023-10-06T10:23:23.297+05:30  INFO 9040 --- [restartedMain] c.pms.main.ProjectManagementApplication  : Starting ProjectManagementApplication using Java 17.0.6 with PID 9040 (G:\sts_work\project_management\target\classes started by Anandha Prabhu in G:\sts_work\project_management)
+2023-10-06T10:23:23.302+05:30  INFO 9040 --- [restartedMain] c.pms.main.ProjectManagementApplication  : No active profile set, falling back to 1 default profile: "default"
+2023-10-06T10:23:23.355+05:30  INFO 9040 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-10-06T10:23:23.355+05:30  INFO 9040 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-10-06T10:23:24.321+05:30  INFO 9040 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-06T10:23:24.389+05:30  INFO 9040 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 58 ms. Found 2 JPA repository interfaces.
+2023-10-06T10:23:25.086+05:30  INFO 9040 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-10-06T10:23:25.095+05:30  INFO 9040 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-06T10:23:25.095+05:30  INFO 9040 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-06T10:23:25.176+05:30  INFO 9040 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-06T10:23:25.177+05:30  INFO 9040 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1815 ms
+2023-10-06T10:23:25.321+05:30  INFO 9040 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-06T10:23:25.388+05:30  INFO 9040 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-10-06T10:23:25.392+05:30  INFO 9040 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-10-06T10:23:25.552+05:30  INFO 9040 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-06T10:23:25.706+05:30  INFO 9040 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-06T10:23:25.728+05:30  INFO 9040 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-06T10:23:26.174+05:30  INFO 9040 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1e9dd59e
+2023-10-06T10:23:26.177+05:30  INFO 9040 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-06T10:23:26.247+05:30  WARN 9040 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-10-06T10:23:26.475+05:30  INFO 9040 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-06T10:23:27.104+05:30  INFO 9040 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-06T10:23:27.173+05:30  INFO 9040 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-06T10:23:27.677+05:30  WARN 9040 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-06T10:23:27.992+05:30  INFO 9040 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2d7b692b, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6b1da89f, org.springframework.security.web.context.SecurityContextHolderFilter@25ef487d, org.springframework.security.web.header.HeaderWriterFilter@4f0d4687, org.springframework.web.filter.CorsFilter@6cdfabff, org.springframework.security.web.authentication.logout.LogoutFilter@7ed64445, com.pms.main.config.JwtAuthenticationFilter@b6eb223, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4103ea88, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@235bed6e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2bc9a043, org.springframework.security.web.session.SessionManagementFilter@575e6afc, org.springframework.security.web.access.ExceptionTranslationFilter@44533003, org.springframework.security.web.access.intercept.AuthorizationFilter@5a439c7f]
+2023-10-06T10:23:28.242+05:30  INFO 9040 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-10-06T10:23:28.288+05:30  INFO 9040 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-06T10:23:28.298+05:30  INFO 9040 --- [restartedMain] c.pms.main.ProjectManagementApplication  : Started ProjectManagementApplication in 5.424 seconds (process running for 6.514)
+2023-10-06T10:24:19.845+05:30  INFO 9040 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-06T10:24:19.845+05:30  INFO 9040 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-06T10:24:19.847+05:30  INFO 9040 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-10-06T10:24:19.859+05:30 DEBUG 9040 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/auth/register
+2023-10-06T10:24:19.867+05:30 DEBUG 9040 --- [http-nio-8080-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-06T10:24:19.880+05:30 DEBUG 9040 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/auth/register
+2023-10-06T10:24:38.762+05:30 DEBUG 9040 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/auth/login
+2023-10-06T10:24:38.763+05:30 DEBUG 9040 --- [http-nio-8080-exec-3] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-06T10:24:38.764+05:30 DEBUG 9040 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/auth/login
+2023-10-06T10:24:38.968+05:30 DEBUG 9040 --- [http-nio-8080-exec-3] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2023-10-06T10:24:59.257+05:30 DEBUG 9040 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/auth/register
+2023-10-06T10:24:59.257+05:30 DEBUG 9040 --- [http-nio-8080-exec-4] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-06T10:24:59.258+05:30 DEBUG 9040 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/auth/register
+2023-10-06T10:25:43.680+05:30 DEBUG 9040 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/auth/login
+2023-10-06T10:25:43.680+05:30 DEBUG 9040 --- [http-nio-8080-exec-5] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-06T10:25:43.681+05:30 DEBUG 9040 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/auth/login
+2023-10-06T10:25:43.789+05:30 DEBUG 9040 --- [http-nio-8080-exec-5] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2023-10-06T10:26:37.180+05:30 DEBUG 9040 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/user/all
+2023-10-06T10:26:37.247+05:30 DEBUG 9040 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/user/all
+2023-10-06T10:27:25.054+05:30 DEBUG 9040 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing PUT /api/v1/user/put/1
+2023-10-06T10:27:25.055+05:30 DEBUG 9040 --- [http-nio-8080-exec-7] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-06T10:27:25.056+05:30 DEBUG 9040 --- [http-nio-8080-exec-7] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2023-10-06T10:27:25.061+05:30 DEBUG 9040 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing PUT /error
+2023-10-06T10:27:25.065+05:30 DEBUG 9040 --- [http-nio-8080-exec-7] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-06T10:27:25.066+05:30 DEBUG 9040 --- [http-nio-8080-exec-7] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2023-10-06T10:27:37.665+05:30 DEBUG 9040 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing PUT /api/v1/user/put/1
+2023-10-06T10:27:37.677+05:30 DEBUG 9040 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured PUT /api/v1/user/put/1
+2023-10-06T10:28:04.746+05:30 DEBUG 9040 --- [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing DELETE /api/v1/user/delete/1
+2023-10-06T10:28:04.756+05:30 DEBUG 9040 --- [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Secured DELETE /api/v1/user/delete/1
+2023-10-06T12:09:49.488+05:30  WARN 9040 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h17m52s793ms731µs).
